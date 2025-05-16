@@ -45,3 +45,8 @@ def calcu():
                 print("Opción inválida")
 
 calcu()
+
+try:
+    op=int(input("Ingrese un numero"))
+except Exception:
+    print("Solo puede ingresar nueros, no caracteres")
